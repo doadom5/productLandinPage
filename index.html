@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-img">
+            <img class="logo"
+                src="https://www.bmw.lt/etc.clientlibs/ds2-webcomponents/clientlibs/clientlib/resources/img/BMW_White_Logo.svg"
+                alt="bmw">
+
+
+        </div>
+        <div class="logo-name">
+            <h3 class="logo1">Bayerische Motoren Werke</h3>
+        </div>
+        <nav id="nav-bar">
+            <div class="nav-link">
+                <a href="#quality">
+                    <h3 class="link">Quality</h3>
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="#pricing">
+                    <h3 class="link">Pricing</h3>
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="#contacts">
+                    <h3 class="link">Contacts</h3>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="video-container">
+            <iframe id="video" src="https://www.youtube.com/embed/watch?v=445KLYzCrdk" frameborder="0"
+                allow="autoplay"></iframe>
+        </section>
+        <hr>
+        <form class="input-container" action="https://www.freecodecamp.com/email-submit" method="post">
+            <h3 class="subscribtion">
+                Suscribe News
+            </h3>
+            <label for="">
+                <input type="email" placeholder="     ...email@email.com">
+            </label>
+            <button type="submit">SUSCRIBE</button>
+        </form>
+        <section id="quality" class="promotion">
+            <div class="prom">
+                <i class="fa-solid fa-paper-plane">
+                </i>
+                <h3 class="prom-text">
+                    Our contact services are designed to provide you with quick and efficient support, ensuring a
+                    seamless experience with
+                    our products and services.
+                </h3>
+            </div>
+            <div class="prom">
+                <i class="fa-solid fa-gear"></i>
+                <h3 class="prom-text">BMW's electric vehicles are known for their exceptional performance, cutting-edge
+                    technology, and eco-friendly design,
+                    offering a thrilling and sustainable driving experience.</h3>
+            </div>
+            <div class="prom">
+                <i class="fa-solid fa-fire"></i>
+                <h3 class="prom-text">We offer competitive pricing to ensure that you get the best value for your money
+                    without compromising on quality.</h3>
+            </div>
+
+        </section>
+        <section class="spec-container" id="pricing">
+            <div class="box">
+                <div class="box-header">
+                    <h1 class="b-h">BMW 2 Series</h1>
+                </div>
+                <div class="price">
+                    <h1>$35,000</h1>
+                </div>
+                <div class="description">
+                    <p class="de-text">
+                        2.0L turbocharged engine, 248 horsepower, 258 lb-ft of torque, 0-60 mph in 5.3 seconds, 8-speed
+                        automatic transmission,
+                        rear-wheel drive.
+                    </p>
+                </div>
+                <button class="btn" type="button">SELECT</button>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <h1 class="b-h">BMW 3 Series</h1>
+                </div>
+                <div class="price">
+                    <h1>$41,000</h1>
+                </div>
+                <div class="description">
+                    <p class="de-text">
+                        2.0L turbocharged engine, 255 horsepower, 294 lb-ft of torque, 0-60 mph in 5.6 seconds, 8-speed
+                        automatic transmission,
+                        rear-wheel drive
+                    </p>
+                </div>
+                <button class="btn" type="button">SELECT</button>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <h1 class="b-h">BMW 4 Series</h1>
+                </div>
+                <div class="price">
+                    <h1>$45,000</h1>
+                </div>
+                <div class="description">
+                    <p class="de-text">
+                        2.0L turbocharged engine, 255 horsepower, 294 lb-ft of torque, 0-60 mph in 5.5 seconds, 8-speed
+                        automatic transmission,
+                        rear-wheel drive
+                    </p>
+                </div>
+                <button class="btn" type="button">SELECT</button>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts" class="footer">
+        <div class="contacts">
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
